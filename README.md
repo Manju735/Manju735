@@ -29,7 +29,7 @@ typedef struct {
 
 int main() {
     Developer me = {
-        .name       = "Manjunatha H",
+        .name       = "H Manjunatha",
         .role       = "Embedded Systems Developer",
         .education  = "B.E. - Electrical & Electronics Engineering",
         .skills     = {"Embedded C", "C++", "Embedded Linux",
