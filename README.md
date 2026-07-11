@@ -126,11 +126,13 @@ EXPLORING ██░░░░░░░  20%   ARM Architecture
 
 <div align="center">
 
-| 🔐 Project | 📝 Description | 🛠️ Tech |
-|-----------|---------------|---------|
-| [**🔐 LSB Steganography**](https://github.com/Manju735/Steganograpy) | Hides & extracts secret messages inside BMP images using LSB bit manipulation. Supports any file extension encoding. | `Embedded C` `Bitwise Ops` `File I/O` |
-| [**📒 Address Book**](https://github.com/Manju735/address-book-project) | Full-featured CLI contact management system — add, search, delete contacts | `C` `Structs` `File Handling` |
-| [**🎵 MP3 Tag Reader**](https://github.com/Manju735/Mp3_tag_reader) | Parses and displays ID3 metadata tags (title, artist, album) from MP3 binary files | `C` `Binary Parsing` `File I/O` |
+| 🚀 Project | 📝 Description | 🛠️ Technologies |
+|------------|---------------|-----------------|
+| [**🔍 Inverted Search Engine**](https://github.com/Manju735/inverted_project) | Developed a high-performance search engine in C using **Hash Tables** and **Linked Lists** to build an inverted index for multiple text files, enabling fast keyword searches with occurrence tracking, database save/restore, and duplicate file prevention. | `C` `Hash Table` `Linked List` `File Handling` `Dynamic Memory` |
+| [**🧮 Arbitrary Precision Calculator (APC)**](https://github.com/Manju735/APC) | Implemented a calculator capable of performing arithmetic on integers of unlimited size using **Linked Lists**, supporting addition, subtraction, multiplication, and handling numbers beyond standard data type limits. | `C` `Linked List` `Data Structures` `Dynamic Memory` |
+| [**🔐 LSB Steganography**](https://github.com/Manju735/Steganograpy) | Designed a secure file-hiding application that embeds and extracts secret data inside **BMP images** using **Least Significant Bit (LSB)** manipulation while preserving image quality. | `Embedded C` `Bitwise Operations` `File I/O` |
+| [**📒 Address Book**](https://github.com/Manju735/address-book-project) | Built a menu-driven contact management system supporting contact creation, search, edit, delete, validation, and persistent storage with an intuitive command-line interface. | `C` `Structures` `File Handling` |
+| [**🎵 MP3 Tag Reader & Editor**](https://github.com/Manju735/Mp3_tag_reader) | Developed a binary file parser to read and modify **ID3 metadata** such as title, artist, album, genre, and year from MP3 files without corrupting the audio data. | `C` `Binary Parsing` `File Handling` |
 
 </div>
 
