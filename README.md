@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Animated Typing Header -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=00C8FF&center=true&vCenter=true&width=700&lines=Hi+%F0%9F%91%8B+I'm+Manjunatha+H;Embedded+C+%7C+C%2B%2B+Developer;Electrical+%26+Electronics+Engineer;Learning+CAN+%7C+UART+%7C+I2C+%7C+SPI;Passionate+about+Low-Level+Systems+%F0%9F%94%A5" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=00C8FF&center=true&vCenter=true&width=700&lines=Hi+%F0%9F%91%8B+I'm+Manjunatha+H;Embedded+C+%7C+C%2B%2B+Developer;Electrical+%26+Electronics+Engineer;CAN+%7C+UART+%7C+I2C+%7C+SPI+%7C+RTOS;Passionate+about+Low-Level+Systems+%F0%9F%94%A5" alt="Typing SVG" />
 
 <br/>
 
@@ -21,8 +21,8 @@ typedef struct {
     char  name[30];
     char  role[50];
     char  education[60];
-    char  skills[6][20];
-    char  learning[5][20];
+    char  skills[10][20];
+    char  learning[2][30];
     char  protocols[4][10];
     char  goal[80];
 } Developer;
@@ -32,10 +32,11 @@ int main() {
         .name       = "H Manjunatha",
         .role       = "Embedded Systems Developer",
         .education  = "B.E. - Electrical & Electronics Engineering",
-        .skills     = {"Embedded C", "C++", "Embedded Linux",
-                       "Data Structures", "Memory Mgmt", "Linux Basics"},
-        .learning   = {"CAN Protocol", "UART", "I2C",
-                       "SPI", "Linux Internals"},
+        .skills     = {"Embedded C", "C++", "Data Structures",
+                       "Linux Basics", "Embedded Linux", "CAN",
+                       "UART", "I2C", "SPI", "RTOS"},
+        .learning   = {"Linux Internals / Kernel",
+                       "ARM Architecture"},
         .protocols  = {"CAN", "UART", "I2C", "SPI"},
         .goal       = "Secure an Embedded Systems / Firmware Engineer role 🚀"
     };
@@ -43,9 +44,10 @@ int main() {
     printf("👋  Hello! I'm %s\n",      me.name);
     printf("🎓  Degree  : %s\n",       me.education);
     printf("💼  Role    : %s\n",       me.role);
-    printf("🌱  Learning: %s | %s | %s | %s\n",
+    printf("✅  Mastered: %s | %s | %s | %s\n",
             me.protocols[0], me.protocols[1],
             me.protocols[2], me.protocols[3]);
+    printf("🌱  Learning: %s | %s\n",  me.learning[0], me.learning[1]);
     printf("🎯  Goal    : %s\n",       me.goal);
     return 0;
 }
@@ -61,12 +63,18 @@ int main() {
 
 ![Embedded C](https://img.shields.io/badge/Embedded_C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Embedded Linux](https://img.shields.io/badge/Embedded_Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Data Structures](https://img.shields.io/badge/Data_Structures-FF6F00?style=for-the-badge&logo=databricks&logoColor=white)
+![Linux Basics](https://img.shields.io/badge/Linux_Basics-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Embedded Linux](https://img.shields.io/badge/Embedded_Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Memory Management](https://img.shields.io/badge/Memory_Management-8B0000?style=for-the-badge&logo=buffer&logoColor=white)
 ![Bitwise Ops](https://img.shields.io/badge/Bitwise_Operations-6A0DAD?style=for-the-badge&logo=atom&logoColor=white)
 ![File I/O](https://img.shields.io/badge/File_I%2FO-2E86AB?style=for-the-badge&logo=files&logoColor=white)
 ![Shell Script](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![CAN Protocol](https://img.shields.io/badge/CAN_Protocol-FF4500?style=for-the-badge&logo=canva&logoColor=white)
+![UART](https://img.shields.io/badge/UART-1DB954?style=for-the-badge&logo=serialport&logoColor=white)
+![I2C](https://img.shields.io/badge/I2C-0099CC?style=for-the-badge&logo=i2c&logoColor=white)
+![SPI](https://img.shields.io/badge/SPI-FF8C00?style=for-the-badge&logo=raspberry-pi&logoColor=white)
+![RTOS](https://img.shields.io/badge/RTOS-DC143C?style=for-the-badge&logo=freebsd&logoColor=white)
 
 </div>
 
@@ -76,12 +84,7 @@ int main() {
 
 <div align="center">
 
-![CAN Protocol](https://img.shields.io/badge/CAN_Protocol-FF4500?style=for-the-badge&logo=canva&logoColor=white)
-![UART](https://img.shields.io/badge/UART-1DB954?style=for-the-badge&logo=serialport&logoColor=white)
-![I2C](https://img.shields.io/badge/I2C-0099CC?style=for-the-badge&logo=i2c&logoColor=white)
-![SPI](https://img.shields.io/badge/SPI-FF8C00?style=for-the-badge&logo=raspberry-pi&logoColor=white)
 ![Linux Internals](https://img.shields.io/badge/Linux_Internals-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![RTOS](https://img.shields.io/badge/RTOS-DC143C?style=for-the-badge&logo=freebsd&logoColor=white)
 ![ARM Architecture](https://img.shields.io/badge/ARM_Architecture-0091BD?style=for-the-badge&logo=arm&logoColor=white)
 
 </div>
@@ -107,17 +110,17 @@ int main() {
 
 ```
 MASTERED ██████████ 100%   Embedded C / C Programming
-MASTERED ████████░░  80%   C++ Basics
-STRONG   ███████░░░  70%   Data Structures (C)
-STRONG   ███████░░░  70%   Linux Basics & File Handling
-STRONG   ██████░░░░  60%   Embedded Linux
-LEARNING █████░░░░░  50%   UART Protocol
-LEARNING █████░░░░░  50%   I2C Protocol
-LEARNING ████░░░░░░  40%   SPI Protocol
-LEARNING ████░░░░░░  40%   CAN Protocol
+MASTERED ██████████ 100%   C++ Basics
+MASTERED ██████████ 100%   Data Structures (C)
+MASTERED ██████████ 100%   Linux Basics & File Handling
+MASTERED ██████████ 100%   Embedded Linux
+MASTERED ██████████ 100%   UART Protocol
+MASTERED ██████████ 100%   I2C Protocol
+MASTERED ██████████ 100%   SPI Protocol
+MASTERED ██████████ 100%   CAN Protocol
+MASTERED ██████████ 100%   RTOS
 LEARNING ███░░░░░░░  30%   Linux Internals / Kernel
-EXPLORING ██░░░░░░░  20%   RTOS
-EXPLORING ██░░░░░░░  20%   ARM Architecture
+LEARNING ██░░░░░░░░  20%   ARM Architecture
 ```
 
 ---
@@ -192,13 +195,13 @@ EXPLORING ██░░░░░░░  20%   ARM Architecture
 ✅ C++ Basics
 ✅ Data Structures in C
 ✅ Linux Basics & Shell
-🔄 Embedded Linux (In Progress)
-🔄 UART Protocol (In Progress)
-🔄 I2C Protocol (In Progress)
-⏳ SPI Protocol (Upcoming)
-⏳ CAN Protocol (Upcoming)
-⏳ Linux Internals / Kernel (Upcoming)
-⏳ RTOS (FreeRTOS) (Planned)
+✅ Embedded Linux
+✅ UART Protocol
+✅ I2C Protocol
+✅ SPI Protocol
+✅ CAN Protocol
+✅ RTOS (FreeRTOS)
+🔄 Linux Internals / Kernel (In Progress)
 ⏳ ARM Cortex-M Architecture (Planned)
 ⏳ Linux Device Drivers (Planned)
 ```
@@ -211,7 +214,7 @@ EXPLORING ██░░░░░░░  20%   ARM Architecture
 |------------|-----------|
 | **Strong in C** | Built real projects: Steganography, Address Book, MP3 Parser |
 | **Electrical Background** | B.E. EEE — understand hardware + software together |
-| **Protocol Awareness** | Actively learning CAN, UART, I2C, SPI |
+| **Protocol Proficiency** | CAN, UART, I2C, SPI, RTOS — hands-on and confident |
 | **Self-Driven** | Learning consistently without waiting for a classroom |
 | **Low-Level Thinking** | Comfortable with bits, bytes, memory, pointers |
 
