@@ -131,6 +131,8 @@ LEARNING ██░░░░░░░░  20%   ARM Architecture
 
 | 🚀 Project | 📝 Description | 🛠️ Technologies |
 |------------|---------------|-----------------|
+| [**🚗 CAN-Based Automotive Dashboard**](https://github.com/Manju735/can_based_automative_dashboard) | Built a 3-ECU instrument cluster on PIC18 microcontrollers exchanging live speed, gear, RPM, and turn-indicator data over **CAN bus**, with a dedicated node rendering it on a 16x2 LCD dashboard with turn-signal LEDs and a buzzer. | `Embedded C` `CAN Protocol` `PIC18` `ADC` `LCD` |
+| [**📦 Car Black Box (Event Data Recorder)**](https://github.com/Manju735/Car_Black_Box_Reference) | Developed a PIC18-based automotive black box that timestamps every gear-shift/collision event via a **DS1307 RTC** and permanently logs it to **external EEPROM**, with an on-device menu to view, download (UART), and clear logs. | `Embedded C` `I2C` `RTC` `EEPROM` `State Machine` |
 | [**🔍 Inverted Search Engine**](https://github.com/Manju735/inverted_project) | Developed a high-performance search engine in C using **Hash Tables** and **Linked Lists** to build an inverted index for multiple text files, enabling fast keyword searches with occurrence tracking, database save/restore, and duplicate file prevention. | `C` `Hash Table` `Linked List` `File Handling` `Dynamic Memory` |
 | [**🧮 Arbitrary Precision Calculator (APC)**](https://github.com/Manju735/APC) | Implemented a calculator capable of performing arithmetic on integers of unlimited size using **Linked Lists**, supporting addition, subtraction, multiplication, and handling numbers beyond standard data type limits. | `C` `Linked List` `Data Structures` `Dynamic Memory` |
 | [**🔐 LSB Steganography**](https://github.com/Manju735/Steganograpy) | Designed a secure file-hiding application that embeds and extracts secret data inside **BMP images** using **Least Significant Bit (LSB)** manipulation while preserving image quality. | `Embedded C` `Bitwise Operations` `File I/O` |
@@ -191,7 +193,7 @@ LEARNING ██░░░░░░░░  20%   ARM Architecture
 ## 🎯 2025 Learning Roadmap
 
 ```
-✅ Embedded C — Projects built (Steganography, Address Book, MP3 Reader)
+✅ Embedded C — Projects built (CAN Dashboard, Black Box, Steganography, Address Book, MP3 Reader)
 ✅ C++ Basics
 ✅ Data Structures in C
 ✅ Linux Basics & Shell
@@ -212,7 +214,7 @@ LEARNING ██░░░░░░░░  20%   ARM Architecture
 
 | 💪 Strength | 📌 Details |
 |------------|-----------|
-| **Strong in C** | Built real projects: Steganography, Address Book, MP3 Parser |
+| **Strong in C** | Built real projects: CAN Dashboard, Car Black Box, Steganography, Address Book, MP3 Parser |
 | **Electrical Background** | B.E. EEE — understand hardware + software together |
 | **Protocol Proficiency** | CAN, UART, I2C, SPI, RTOS — hands-on and confident |
 | **Self-Driven** | Learning consistently without waiting for a classroom |
