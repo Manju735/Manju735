@@ -21,8 +21,8 @@ typedef struct {
     char  name[30];
     char  role[50];
     char  education[60];
-    char  skills[10][20];
-    char  learning[2][30];
+    char  skills[11][20];
+    char  learning[1][30];
     char  protocols[4][10];
     char  goal[80];
 } Developer;
@@ -33,10 +33,9 @@ int main() {
         .role       = "Embedded Systems Developer",
         .education  = "B.E. - Electrical & Electronics Engineering",
         .skills     = {"Embedded C", "C++", "Data Structures",
-                       "Linux Basics", "Embedded Linux", "CAN",
-                       "UART", "I2C", "SPI", "RTOS"},
-        .learning   = {"Linux Internals / Kernel",
-                       "ARM Architecture"},
+                       "Linux Basics", "Embedded Linux", "Linux Kernel",
+                       "CAN", "UART", "I2C", "SPI", "RTOS"},
+        .learning   = {"ARM Architecture"},
         .protocols  = {"CAN", "UART", "I2C", "SPI"},
         .goal       = "Secure an Embedded Systems / Firmware Engineer role 🚀"
     };
@@ -47,7 +46,7 @@ int main() {
     printf("✅  Mastered: %s | %s | %s | %s\n",
             me.protocols[0], me.protocols[1],
             me.protocols[2], me.protocols[3]);
-    printf("🌱  Learning: %s | %s\n",  me.learning[0], me.learning[1]);
+    printf("🌱  Learning: %s\n",       me.learning[0]);
     printf("🎯  Goal    : %s\n",       me.goal);
     return 0;
 }
@@ -66,6 +65,7 @@ int main() {
 ![Data Structures](https://img.shields.io/badge/Data_Structures-FF6F00?style=for-the-badge&logo=databricks&logoColor=white)
 ![Linux Basics](https://img.shields.io/badge/Linux_Basics-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Embedded Linux](https://img.shields.io/badge/Embedded_Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Linux Internals](https://img.shields.io/badge/Linux_Internals_/_Kernel-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Memory Management](https://img.shields.io/badge/Memory_Management-8B0000?style=for-the-badge&logo=buffer&logoColor=white)
 ![Bitwise Ops](https://img.shields.io/badge/Bitwise_Operations-6A0DAD?style=for-the-badge&logo=atom&logoColor=white)
 ![File I/O](https://img.shields.io/badge/File_I%2FO-2E86AB?style=for-the-badge&logo=files&logoColor=white)
@@ -84,7 +84,6 @@ int main() {
 
 <div align="center">
 
-![Linux Internals](https://img.shields.io/badge/Linux_Internals-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![ARM Architecture](https://img.shields.io/badge/ARM_Architecture-0091BD?style=for-the-badge&logo=arm&logoColor=white)
 
 </div>
@@ -109,18 +108,18 @@ int main() {
 ## 📊 Skills Roadmap
 
 ```
-MASTERED ██████████ 100%   Embedded C / C Programming
-MASTERED ██████████ 100%   C++ Basics
-MASTERED ██████████ 100%   Data Structures (C)
-MASTERED ██████████ 100%   Linux Basics & File Handling
-MASTERED ██████████ 100%   Embedded Linux
-MASTERED ██████████ 100%   UART Protocol
-MASTERED ██████████ 100%   I2C Protocol
-MASTERED ██████████ 100%   SPI Protocol
-MASTERED ██████████ 100%   CAN Protocol
-MASTERED ██████████ 100%   RTOS
-LEARNING ███░░░░░░░  30%   Linux Internals / Kernel
-LEARNING ██░░░░░░░░  20%   ARM Architecture
+COMPLETED ██████████ 100%   Embedded C / C Programming
+COMPLETED ██████████ 100%   C++ Basics
+COMPLETED ██████████ 100%   Data Structures (C)
+COMPLETED ██████████ 100%   Linux Basics & File Handling
+COMPLETED ██████████ 100%   Embedded Linux
+COMPLETED ██████████ 100%   Linux Internals / Kernel
+COMPLETED ██████████ 100%   UART Protocol
+COMPLETED ██████████ 100%   I2C Protocol
+COMPLETED ██████████ 100%   SPI Protocol
+COMPLETED ██████████ 100%   CAN Protocol
+COMPLETED ██████████ 100%   RTOS
+LEARNING  ██░░░░░░░░  20%   ARM Architecture
 ```
 
 ---
@@ -131,8 +130,8 @@ LEARNING ██░░░░░░░░  20%   ARM Architecture
 
 | 🚀 Project | 📝 Description | 🛠️ Technologies |
 |------------|---------------|-----------------|
-| [**🚗 CAN-Based Automotive Dashboard**](https://github.com/Manju735/can_based_automative_dashboard) | Built a 3-ECU instrument cluster on PIC18 microcontrollers exchanging live speed, gear, RPM, and turn-indicator data over **CAN bus**, with a dedicated node rendering it on a 16x2 LCD dashboard with turn-signal LEDs and a buzzer. | `Embedded C` `CAN Protocol` `PIC18` `ADC` `LCD` |
-| [**📦 Car Black Box (Event Data Recorder)**](https://github.com/Manju735/Car_Black_Box_Reference) | Developed a PIC18-based automotive black box that timestamps every gear-shift/collision event via a **DS1307 RTC** and permanently logs it to **external EEPROM**, with an on-device menu to view, download (UART), and clear logs. | `Embedded C` `I2C` `RTC` `EEPROM` `State Machine` |
+| [**🚗 CAN-Based Automotive Dashboard**](https://github.com/Manju735/can_based_automative_dashboard) ✅ | Built a 3-ECU instrument cluster on PIC18 microcontrollers exchanging live speed, gear, RPM, and turn-indicator data over **CAN bus**, with a dedicated node rendering it on a 16x2 LCD dashboard with turn-signal LEDs and a buzzer. | `Embedded C` `CAN Protocol` `PIC18` `ADC` `LCD` |
+| [**📦 Car Black Box (Event Data Recorder)**](https://github.com/Manju735/Car_Black_Box_Reference) ✅ | Developed a PIC18-based automotive black box that timestamps every gear-shift/collision event via a **DS1307 RTC** and permanently logs it to **external EEPROM**, with an on-device menu to view, download (UART), and clear logs. | `Embedded C` `I2C` `RTC` `EEPROM` `State Machine` |
 | [**🔍 Inverted Search Engine**](https://github.com/Manju735/inverted_project) | Developed a high-performance search engine in C using **Hash Tables** and **Linked Lists** to build an inverted index for multiple text files, enabling fast keyword searches with occurrence tracking, database save/restore, and duplicate file prevention. | `C` `Hash Table` `Linked List` `File Handling` `Dynamic Memory` |
 | [**🧮 Arbitrary Precision Calculator (APC)**](https://github.com/Manju735/APC) | Implemented a calculator capable of performing arithmetic on integers of unlimited size using **Linked Lists**, supporting addition, subtraction, multiplication, and handling numbers beyond standard data type limits. | `C` `Linked List` `Data Structures` `Dynamic Memory` |
 | [**🔐 LSB Steganography**](https://github.com/Manju735/Steganograpy) | Designed a secure file-hiding application that embeds and extracts secret data inside **BMP images** using **Least Significant Bit (LSB)** manipulation while preserving image quality. | `Embedded C` `Bitwise Operations` `File I/O` |
@@ -190,7 +189,7 @@ LEARNING ██░░░░░░░░  20%   ARM Architecture
 
 ---
 
-## 🎯 2025 Learning Roadmap
+## 🎯 Learning Roadmap
 
 ```
 ✅ Embedded C — Projects built (CAN Dashboard, Black Box, Steganography, Address Book, MP3 Reader)
@@ -198,13 +197,13 @@ LEARNING ██░░░░░░░░  20%   ARM Architecture
 ✅ Data Structures in C
 ✅ Linux Basics & Shell
 ✅ Embedded Linux
+✅ Linux Internals / Kernel
 ✅ UART Protocol
 ✅ I2C Protocol
 ✅ SPI Protocol
 ✅ CAN Protocol
 ✅ RTOS (FreeRTOS)
-🔄 Linux Internals / Kernel (In Progress)
-⏳ ARM Cortex-M Architecture (Planned)
+🔄 ARM Cortex-M Architecture (In Progress)
 ⏳ Linux Device Drivers (Planned)
 ```
 
@@ -217,6 +216,7 @@ LEARNING ██░░░░░░░░  20%   ARM Architecture
 | **Strong in C** | Built real projects: CAN Dashboard, Car Black Box, Steganography, Address Book, MP3 Parser |
 | **Electrical Background** | B.E. EEE — understand hardware + software together |
 | **Protocol Proficiency** | CAN, UART, I2C, SPI, RTOS — hands-on and confident |
+| **Linux Know-How** | Linux basics, Embedded Linux and Linux Internals / Kernel completed |
 | **Self-Driven** | Learning consistently without waiting for a classroom |
 | **Low-Level Thinking** | Comfortable with bits, bytes, memory, pointers |
 
